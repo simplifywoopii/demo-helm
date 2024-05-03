@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: nginx
+  repository: us-central1-docker.pkg.dev/devops-421112/simplifywoopii-apps/nginx
   pullPolicy: IfNotPresent
   tag: b7d0c0f1e10e13eb9557196ed1d21987e5d371f4
 imagePullSecrets: []
